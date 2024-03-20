@@ -37,7 +37,7 @@ function TodoHead() {
     month: "long",
     day: "numeric",
   });
-  const dayName = today.toLocaleDateString("ko-KR", { weekday: "long" });
+  const dayName = today.toLocaleDateString("ko-KR", { weekday: "long" }); // Date 의 toLocaleString  함수
 
   return (
     <TodoHeadBlock>

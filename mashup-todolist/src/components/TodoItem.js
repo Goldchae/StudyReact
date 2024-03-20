@@ -76,4 +76,4 @@ function TodoItem({ id, done, text }) {
   );
 }
 
-export default TodoItem;
+export default React.memo(TodoItem); // 다른 항목이 업데이트 될 때 불필요한 렌더링 방지
